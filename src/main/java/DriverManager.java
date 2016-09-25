@@ -4,7 +4,7 @@ import java.net.URL;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-public class Driver {
+public class DriverManager {
     //please replace this parameters by yours
     private static String deviceID = "emulator-5554";
     private static String url = "http://0.0.0.0:4723/wd/hub";

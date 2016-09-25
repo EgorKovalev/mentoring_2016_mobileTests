@@ -4,11 +4,11 @@ import org.junit.Test;
 
 import java.net.MalformedURLException;
 
-public class BaseFunctionalityTest  {
+public class Tests {
     private AndroidDriver driver;
 
-    public BaseFunctionalityTest() throws MalformedURLException {
-        driver = Driver.get();
+    public Tests() throws MalformedURLException {
+        driver = DriverManager.get();
     }
 
     @Test
